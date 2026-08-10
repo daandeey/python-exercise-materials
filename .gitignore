@@ -1,0 +1,8 @@
+# Instructor-only material - not for students
+exercise_answers.py
+README_INSTRUCTOR_GUIDE.md
+
+# OS / editor junk
+.DS_Store
+__pycache__/
+*.pyc
