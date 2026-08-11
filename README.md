@@ -13,6 +13,6 @@ python3 <filename>.py
 | Folder | Topic |
 |---|---|
 | [`conditional-and-loop-statements/`](conditional-and-loop-statements/) | `if`/`elif`/`else`, `for` and `while` loops, `break`/`continue`, iterables |
+| [`collection-data-type/`](collection-data-type/) | `list`, `tuple`, `set`, `dict` - creation, methods, indexing/slicing, comprehension, set operations |
 
-More topics (e.g. Python collection data types) will be added as new
-folders alongside this one.
+More topics will be added as new folders alongside these.
