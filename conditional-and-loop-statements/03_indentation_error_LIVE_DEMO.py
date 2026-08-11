@@ -29,10 +29,10 @@ user_age = 20
 # This is the most common beginner mistake - forgetting to indent
 # the line(s) that belong inside the if block.
 # ============================================================
-if user_age >= 17:
-print("You are eligible to sign up!")   # <-- BUG: not indented!
+# if user_age >= 17:
+#    print("You are eligible to sign up!")   # <-- BUG: not indented!
 
-print("Have a nice day!")
+# print("Have a nice day!")
 
 
 # ============================================================
@@ -48,9 +48,9 @@ print("Have a nice day!")
 # Inconsistent indentation - mixing different indent widths for lines
 # that are supposed to be in the SAME block.
 # ============================================================
-# if user_age >= 17:
-#     print("You are eligible to sign up!")
-#       print("Check your email!")   # <-- BUG: indented MORE than the line above
+if user_age >= 17:
+   print("You are eligible to sign up!")
+   print("Check your email!")   # <-- BUG: indented MORE than the line above
 #
 # Error you'll see: "IndentationError: unexpected indent"
 #

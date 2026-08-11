@@ -35,7 +35,7 @@ print("-" * 40)
 # Handy for "human-friendly" numbering (1st, 2nd, 3rd... instead of 0th)
 # -------------------------------------------------
 print("Using enumerate(fruits, start=1):")
-for position, fruit in enumerate(fruits, start=1):
+for position, fruit in enumerate(fruits, start=10):
     print(f"{position}. {fruit}")
 
 print("=" * 40)

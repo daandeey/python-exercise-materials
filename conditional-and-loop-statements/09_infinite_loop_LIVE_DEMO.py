@@ -29,6 +29,6 @@ while money > 0:
     # variable used in the while condition never changes inside the loop.
     #
     # THE FIX (uncomment this line):
-    # money = money - 1
+    money = money - 1
 
 print("Done buying chocolate!")   # this line will NEVER be reached as-is

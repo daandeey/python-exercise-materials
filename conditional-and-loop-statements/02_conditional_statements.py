@@ -41,7 +41,7 @@ user_age = int(input("Enter your age: "))
 
 if user_age >= 17:
     print("You can send the application form!")
-elif user_age == 16:
+elif (user_age == 15) or (user_age == 16):
     print("You need your parents' permission to sign up!")
 else:
     print("You are not eligible to sign up!")

@@ -9,7 +9,9 @@ after the FIRST condition is already True (slide 16-17: NIK example).
 def validate_nik(nik):
     """Simple stand-in for the slide's validate_NIK() - a real NIK
     is 16 digits. We just check length + digits so the demo runs."""
-    return len(nik) == 16 and nik.isdigit()
+    result = len(nik) == 16 and nik.isdigit() # True or False
+
+    return result
 
 
 user_age = int(input("Enter your age: "))
@@ -17,6 +19,7 @@ user_age = int(input("Enter your age: "))
 if user_age >= 17:
     nik = input("Enter your NIK (16 digits): ")
     is_nik_valid = validate_nik(nik)
+    print(is_nik_valid) # True or False
 
     # This inner "if" is ONLY reached if user_age >= 17 was True.
     # That's what makes it "nested" - an if statement living inside

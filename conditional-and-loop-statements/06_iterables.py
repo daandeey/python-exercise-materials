@@ -10,7 +10,7 @@ Slide 24 lists the common ones - here's each one running for real.
 # -------------------------------------------------
 print("Looping over a string:")
 for char in "Python":
-    print(char, end=" ")
+    print(char, end="-")
 print()
 
 # -------------------------------------------------
@@ -18,8 +18,8 @@ print()
 # -------------------------------------------------
 print("\nLooping over a list:")
 fruits = ["Apple", "Banana", "Orange"]
-for fruit in fruits:
-    print(fruit, end=" ")
+for buah in fruits:
+    print(buah, end=" ")
 print()
 
 # -------------------------------------------------
@@ -35,7 +35,12 @@ print()
 # Dictionary -> by default, looping gives you the KEYS only
 # -------------------------------------------------
 print("\nLooping over a dictionary (keys only):")
-person = {"name": "John", "age": 20}
+person = {
+            "name": "John", 
+            "age": 20,
+            "weight": 73,
+            "height": 173
+        }
 for key in person:
     print(key, end=" ")
 print()
@@ -46,7 +51,7 @@ for value in person.values():
 print()
 
 print("Looping over a dictionary's key-value pairs:")
-for key, value in person.items():
+for k, v in person.items():
     print(f"{key} -> {value}", end="  ")
 print()
 
