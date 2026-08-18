@@ -12,6 +12,7 @@ NOT when another file imports it.
 def add(a, b):
     return a + b
 
+# print('__name__ variable inside calculator.py', __name__)
 if __name__ == "__main__":
     result = add(1, 2)
     print("(inside calculator.py) result =", result)   # Output: 3
